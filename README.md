@@ -20,6 +20,17 @@ javascript:((l='%login%',p='%password%')=>{$('#IDToken1').val(l);$('#IDToken2').
 ((l='%login%',p='%password%')=>{$('#IDToken1').val(l);$('#IDToken2').val(p);LoginSubmit()})();
 ```
 
+## About
+
+I am tired of entering my login and password every time I go to ortus. Their login page does not allow password saving (at least in chrome), so I wrote a little script to automatically enter credentails and login. 
+
+If anyone doesn't like immediately invoked function - minified script is available. I am using it to group settings in the parameters and make password changing little faster. 
+
+
+## License
+
+[wtfpl](http://www.wtfpl.net/)
+
 
 
 
